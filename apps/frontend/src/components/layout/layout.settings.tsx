@@ -92,9 +92,9 @@ export const LayoutSettings = ({ children }: { children: ReactNode }) => {
               >
                 <div className="min-w-[55px]">
                   <Image
-                    src={isGeneral ? '/postiz.svg' : '/logo.svg'}
+                    src={isGeneral ? '/@onepost.png' : '/@onepost.png'}
                     width={55}
-                    height={53}
+                    height={55}
                     alt="Logo"
                   />
                 </div>

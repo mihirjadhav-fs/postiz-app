@@ -21,9 +21,9 @@ export default async function AuthLayout({
           <div className="w-full relative">
             <div className="custom:fixed custom:text-left custom:left-[20px] custom:justify-start custom:top-[20px] absolute -top-[100px] text-textColor justify-center items-center w-full flex gap-[10px]">
               <Image
-                src={isGeneralServerSide() ? '/postiz.svg' : '/logo.svg'}
+                src={isGeneralServerSide() ? '/@onepost.png' : '/@onepost.png'}
                 width={55}
-                height={53}
+                height={55}
                 alt="Logo"
               />
               <div
